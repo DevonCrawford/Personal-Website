@@ -1,0 +1,26 @@
+.extraSpace {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.padY40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.padY60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.padX0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media (max-width: 991px) {
+    .extraSpace {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}

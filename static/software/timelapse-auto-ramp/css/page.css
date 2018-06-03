@@ -1,0 +1,62 @@
+.homeDiv {
+    background-color: black;
+}
+
+.centerX {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.topPad {
+    padding-top: 160px;
+    padding-bottom: 80px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cent {
+    text-align: center;
+}
+
+.vid {
+    padding-bottom: 60px;
+}
+
+.theoryDiv {
+    background-color: #191919;
+}
+
+.b {
+    display: block;
+}
+
+.padB60 {
+    padding-bottom: 80px;
+}
+
+/* .container .gallery a img {
+  float: left;
+  width: 20%;
+  height: auto;
+  border: 2px solid #fff;
+  -webkit-transition: -webkit-transform .15s ease;
+  -moz-transition: -moz-transform .15s ease;
+  -o-transition: -o-transform .15s ease;
+  -ms-transition: -ms-transform .15s ease;
+  transition: transform .15s ease;
+  position: relative;
+}
+.container .gallery a:hover img {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 5;
+} */
+
+body .scrollN, body .scrollN:hover {
+    color: #101010;
+}

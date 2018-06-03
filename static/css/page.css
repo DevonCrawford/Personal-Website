@@ -1,0 +1,278 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.homeImg {
+    background-image: url("../images/IMG_2130.jpg");
+    background-image: url("../images/IMG_2134.jpg");
+    background-image: url("../images/IMG_1691.jpg");
+    background-image: url("../images/IMG_1068.jpg");
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-v {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center2 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.homeDiv {
+    font-family: "Gravity-Book";
+    color: white;
+}
+
+.homeMainTitle {
+    font-size: 3em;
+}
+
+.homeSubTitle {
+    font-size: 1em;
+}
+
+.homeSouth {
+    text-align: center;
+    position: absolute;
+    left: calc(50% - 54px);
+    top: calc(100% - 120px);
+}
+
+.smoothScrollBtn {
+    color: white;
+    /* margin-top: -20px; */
+    position: relative;
+    border: none;
+    background: none;
+    font-size: 3em;
+}
+
+.smoothScrollBtn:focus {
+    outline: 0;
+}
+
+.stealthLink, .stealthLink:focus, .stealthLink:hover {
+    color: white;
+    outline: 0;
+    text-decoration: none;
+    font-family: "Gravity-Regular";
+}
+
+.circleImg {
+    border-radius: 50%;
+    height: 200px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+}
+
+.pad20 {
+    padding: 20px;
+    padding-bottom: 4px;
+}
+
+.rowPad {
+    padding: 40px;
+}
+
+.passionDiv {
+    height: 50px;
+    background-color: white;
+}
+
+.tileTitle {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.whiteText {
+    color: white;
+}
+
+.tileDesc {
+    text-align: center;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Gravity-Regular";
+}
+
+.centerLinks {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.centerLinks a {
+    color: gray;
+    font-family: "Gravity-Regular";
+    transition: 0.2s ease-in-out;
+}
+
+.centerLinks a:hover {
+    /* text-decoration: underline; */
+    color: white;
+}
+
+.softwareImg {
+    background-color: #282828;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub {
+    font-family: "Gravity-Regular";
+    letter-spacing: 10px;
+}
+
+.tilePadWide {
+    padding: 40px;
+}
+
+.tilePadMin {
+    padding: 10px;
+}
+
+.centerLinks > li > a {
+    text-decoration: none;
+}
+
+.centerLinks .brText {
+    display: inline-block;
+    color: #42536d;
+}
+
+.videoBack {
+    background-color: #E62117;
+}
+
+.centerBtn {
+    margin: 40px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.softwareDiv {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.softwareTitle {
+    color: #b5b5b5;
+}
+
+.electronicsBack {
+    /* background-image: url("../images/IMG_1716.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centerTitle {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.leftTitle {
+    text-align: left;
+    vertical-align: middle;
+    line-height: 50px;
+    font-family: "Gravity-Book";
+    font-size: 2em;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+
+.learnFilmsBtn {
+    border-color: #ffdbdb;
+    background-color: #ffdbdb;
+    color: #E62117;
+}
+
+.learnFilmsBtn:hover {
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: white;
+    border-color: white;
+    color: #E62117;
+}
+
+.photoBack {
+    /* background-image: url("../images/IMG_7509.JPG"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-left: 0px;
+    padding-right: 0px; */
+}
+
+.backBlur {
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+    .circleImg {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
+    }
+    .rowPad {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .tilePadWide {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .softwareDiv, .electronicsDiv {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .aboutMe {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .tilePad {
+        padding: 10px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .extraSpace {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .centerTitle {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .videoBack div div .tilePadMin {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

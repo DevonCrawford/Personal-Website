@@ -1,0 +1,233 @@
+.landImg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec div:first-of-type {
+    /* padding-top: 40px; */
+}
+
+/* .sec > div:last-of-type {
+    padding-bottom: 60px;
+} */
+
+body .padtop0 {
+    padding-top: 0px;
+}
+
+body .padX0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sec > .container {
+    padding-bottom: 60px;
+}
+
+.white {
+    color: white;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padB40 {
+    padding-bottom: 40px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.subText, .listPad li {
+    font-family: "Gravity-Regular";
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.subP {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: "Gravity-Regular";
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.subPmin {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: "Gravity-Regular";
+}
+
+.extPad {
+    padding: 60px;
+    padding-top: 20px;
+}
+
+.listPad li {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.listPad {
+    padding: 40px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.minpadY {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padY40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.subTitle {
+    font-family: "Gravity-Regular";
+    letter-spacing: 10px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+}
+
+.textCent, .cenX {
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.linkGrey, .linkGrey:hover {
+    padding: 6px;
+    color: gray;
+    font-family: "Gravity-Regular";
+}
+
+.backDark {
+    background-color: #191919;
+}
+
+.exText div h5 {
+    font-family: "Gravity-Regular";
+    font-size: 1.2em;
+}
+.exText div {
+    padding: 0px;
+}
+
+.round3 {
+    border-radius: 3px;
+}
+
+.titleMain {
+    font-family: "Gravity-Regular";
+    letter-spacing: 20px;
+}
+
+.regTitle {
+    font-family: "Gravity-Regular";
+    letter-spacing: 5px;
+}
+
+.subT2 {
+    font-family: "Gravity-Regular";
+    letter-spacing: 5px;
+}
+
+.btnLinks .col-md-4 {
+    text-align: center;
+}
+
+.btnLinks .col-md-4 p {
+    padding-bottom: 10px;
+    font-family: "Gravity-Regular";
+}
+
+.leftCenter {
+    display: inline-block;
+    text-align: left;
+}
+
+.btnLinks.extPad {
+    padding-bottom: 120px;
+}
+
+/* Suitable for mobile devices */
+
+@media (max-width: 991px) {
+    .sub {
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .btnLinks .bot {
+        padding-bottom: 60px;
+    }
+    .sub {
+        letter-spacing: 10px;
+    }
+    .btnLinks {
+        padding-bottom: 0px;
+    }
+    .extPad, .subP {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .subTitle {
+        padding-left: 20px;
+    }
+    .listPad {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+    .listPad li {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 458px) {
+    .titleMain {
+        letter-spacing: 10px;
+    }
+    .exText div h5 {
+        font-family: "Gravity-Regular";
+        font-size: 1em;
+    }
+    .topPad {
+        padding-top: 120px;
+    }
+    .sub {
+        letter-spacing: 0px;
+    }
+
+}
+@media (max-width: 369px) {
+    .titleMain {
+        font-size: 2em;
+        letter-spacing: 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .topPad {
+        padding-top: 200px;
+    }
+}

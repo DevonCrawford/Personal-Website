@@ -1,0 +1,63 @@
+.custom-toggler.navbar-toggler {
+    border-color: rgb(220,220,220);
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(50,50,50, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+body .scrollN, body .scrollN:hover {
+    font-size: 1em;
+    color: white;
+    font-family: 'Gravity-Regular';
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+.navbar-nav li {
+    -webkit-transition: all .7s ease-out;
+    transition: all .7s ease-out;
+}
+
+.navbar-nav li:hover {
+    background-color: rgba(220,220,220,0.15);
+}
+
+/* Medium devices and smaller (tablets, 991px and lower width)
+    For the navbar toggle mode */
+    @media (max-width: 991px) {
+    #global-nav {
+        min-height: 56px !important;
+        background-color: white;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .transparent {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    #global-nav {
+        height: 120px;
+        -webkit-transition: height .5s, line-height .5s;
+        transition: height .5s, line-height .5s;
+    }
+    .scrolled-nav {
+        background-color: white;
+        height: 60px !important;
+        line-height: 60px;
+    }
+    .counter {
+      width: 20px;
+      height: 20px;
+      background: black;
+      color: #fff;
+      position: fixed;
+      top: 120px;
+      right: 0;
+    }
+    .navbar-nav li, .navbar-brand {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}

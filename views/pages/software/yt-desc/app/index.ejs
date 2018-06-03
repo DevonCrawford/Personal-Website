@@ -1,0 +1,184 @@
+<% var rootPath = '../../../../'; %>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <%- include(rootPath + 'partials/includes'); %>
+    </head>
+    <body>
+        <%- include(rootPath + 'partials/nav'); %>
+        <link rel="stylesheet" type="text/css" href="../css/page.css"/>
+
+            <div class="container-fluid">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col topPad cenX">
+
+                                <h1 id="userTitle">SIGNING IN ...</h1>
+                                <h3 class="regTitle stats" id="videoCount"></h3>
+                                <h3 class="regTitle stats" id="subCount"></h3>
+                                <h3 class="regTitle stats" id="viewCount"></h3>
+
+                                <!-- <p class="subText extPad">You are authorized to update video descriptions through this web app</p> -->
+
+                                <br><br><br><br>
+
+
+
+
+                        </div>
+                        <!-- <div class="col-4 topPad">
+
+                            yoyoyo
+                        </div> -->
+                    </div>
+
+                    <div class="inputSearch sec">
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="startRange">Number of Videos</label>
+                            </div>
+                            <div class="col-3">
+                                <label for="searchSelect">Search by..</label>
+                            </div>
+                            <div class="col-2">
+                                <label for="startRange" class="inputOP" hidden>Start Video Id</label>
+                            </div>
+                            <div class="col-2">
+                                <label for="endRange" class="inputOP" hidden>End Video Id</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-2">
+                                <input class="form-control" placeholder="Enter number" id="range">
+                            </div>
+                            <div class="col-3 searchInputDiv" >
+                                <div class="form-group">
+                                  <select class="form-control" id="searchSelect">
+                                    <option>Most Recent Uploads</option>
+                                    <option>Range of Uploads</option>
+                                  </select>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <input class="form-control inputOP" placeholder="Enter Video Id" id="startRange" hidden>
+                            </div>
+                            <div class="col-2">
+                                <input class="form-control inputOP" placeholder="Enter Video Id" id="endRange" hidden>
+                            </div>
+
+                            <div class="col-3 uploadBtnDiv">
+                                <button type="button" class="btn btn-lg btn-danger float-right" id="uploadsBtn">GET UPLOADS</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- <div class="cenX padB60">
+                        <a class="btn btn-primary btn-lg" href="releases/proRAW.jar" role="button" download>Download V1.0 .jar</a>
+                        <a class="linkGrey" id="srcCode" href="https://github.com/DevonCrawford/Timelapse-Auto-Ramp-Photoshop-Plugin">View source code</a>
+                    </div>
+
+                    <div class="row exText">
+                        <div class="col-4">
+                            <h5 class="cenX">Original</h5>
+                        </div>
+                        <div class="col-4">
+                            <h5 class="cenX">VS</h5>
+                        </div>
+                        <div class="col-4">
+                            <h5 class="cenX">Processed</h5>
+                        </div>
+                    </div>
+                    <video width="100%" autoplay loop class="round3 vid">
+                        <source src="results/Timelapse-auto-ramp-compressed-3.mp4"></source>
+                    </video> -->
+                </div>
+            </div>
+
+            <div class="container-fluid theoryDiv sec">
+                <div class="container searchTableDiv">
+                    <table style="width:100%" class="table" id="searchTable">
+                        <tr>
+                            <th>Thumbnail</th>
+                            <th>Title</th>
+                            <th>Video Id</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!-- <div class="container-fluid sec">
+                <div class="container">
+                    <h3 class="subTitle">HOW TO SHOOT</h3>
+                        <ul class="listPad">
+                            <li>manually change camera settings when shooting to
+                                achieve good lighting (this will create a flicker
+                                during the timelapse, but my program is made to even
+                                out this change)</li>
+                            <li>edit images in photostop lightroom, be sure to SAVE
+                                METADATA TO FILE, which creates .xmp files for my
+                                program to use</li>
+                        </ul>
+                </div>
+
+                <div class="container">
+                    <h3 class="subTitle">HOW TO USE</h3>
+                        <ul class="listPad">
+                            <li>Close photoshop (After saving metadata)</li>
+                            <li>open up command prompt / terminal</li>
+                            <li>cd to location of program (ex. cd Downloads)</li>
+                            <li>run by typing <code>java -jar proRAW.jar</code></li>
+                            <li>input the file path of the first image</li>
+                            <li>Open photoshop and changes will be applied!</li>
+                        </ul>
+                </div>
+
+                <div class="container">
+                    <img src="images/cmd.PNG" width="90%" class="centerImg padB40"></img>
+                </div> -->
+            </div>
+
+            <!--  -->
+            <!-- btnLINKS -->
+            <!-- <div class="container-fluid btnLinks extPad">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 bot">
+                            <div class="leftCenter">
+                                <h3 class="sub2">FOUND A BUG?</h3>
+                                <p class="subText">Let me know on github</p>
+                                <a class="btn btn-success btn-lg w100" href="https://github.com/DevonCrawford/Timelapse-Auto-Ramp-Photoshop-Plugin/issues" role="button">Issues</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 bot">
+                            <div class="leftCenter">
+                                <h3 class="sub2">CONTRIBUTE</h3>
+                                <p class="subText">Take part in the project</p>
+                                <a class="btn btn-secondary btn-lg w100" href="/contact" role="button">Contact Me</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="leftCenter">
+                                <h3 class="sub2">GET FOR FREE</h3>
+                                <p class="subText">No install necessary</p>
+                                <a class="btn btn-primary btn-lg w100" href="releases/proRAW.jar" role="button" download>Download .jar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <p class="subText extPad">Note: This program currently has no GUI therefore when you
+                    click on the .jar file it appears to not open. Make sure
+                    you open the file in command prompt following the
+                    instructions above.</p>
+            </div> -->
+
+        <%- include(rootPath + 'partials/footer'); %>
+        <!-- <script src="/scripts/mobile.js" type="text/javascript"></script> -->
+        <script src="scripts/ajax.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+.footer {
+    background-color: #282828;
+    padding: 0px;
+}
+
+.socialIcons li a img {
+    vertical-align: middle;
+    padding: 5px;
+    height: 50px;
+}
+
+.footerText {
+    font-family: "Gravity-Regular";
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.bottomLinksDiv {
+    background-color: #191919;
+    padding: 30px;
+}
+
+.bottomLinksDiv div div div p {
+    margin: 0px;
+}
+
+.bottomLinksDiv a {
+    font-family: "Gravity-Regular";
+    text-align: center;
+    color: white;
+}
+
+.bottomLinks li, .bottomLinks p {
+    display: inline;
+}
+
+.bottomLinks p {
+    color: white;
+    padding: 20px;
+}
+
+.bottomLinksDiv div div a {
+    color: white;
+}
+
+.centerLinks {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .bottomLinksDiv div div a {
+        display: inline;
+        text-align: center;
+    }
+    .bottomLinksDiv div .col-md {
+        display: block;
+        text-align: center;
+        color: #3d3d3d;
+        padding: 0px;
+    }
+}

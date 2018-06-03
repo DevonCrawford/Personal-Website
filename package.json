@@ -1,0 +1,22 @@
+{
+  "name": "devon_crawford_website",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Devon Crawford",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "google-auth-library": "^1.4.0",
+    "googleapis": "^30.0.0",
+    "jsdom": "^11.10.0",
+    "nodemailer": "^4.6.4",
+    "nodemon": "^1.17.3",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}

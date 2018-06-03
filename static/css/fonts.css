@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Gravity-Bold";
+    src: url('/fonts/Gravity-Bold.otf');
+}
+
+@font-face {
+    font-family: "Gravity-Regular";
+    src: url('/fonts/Gravity-Regular.otf');
+}
+
+@font-face {
+    font-family: "Gravity-Light";
+    src: url('/fonts/Gravity-Light.otf');
+}
+
+@font-face {
+    font-family: "Gravity-Book";
+    src: url('/fonts/Gravity-Book.otf');
+}

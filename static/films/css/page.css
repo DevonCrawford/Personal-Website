@@ -1,0 +1,16 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.homeImg {
+    /* background-image: url("/images/IMG_2134.jpg"); */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body .scrollN, body .scrollN:hover {
+    color: #101010;
+}
