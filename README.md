@@ -12,6 +12,7 @@ app.js
 
 ## Routing
 All api requests go through /api/
+
 All front end and static requests go through /          (root)
 
 Meaning if you go to localhost:8080/software it will take you to the software page
