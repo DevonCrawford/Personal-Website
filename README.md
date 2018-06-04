@@ -25,6 +25,7 @@ call partials in ejs to include html in other pages.
 
 ## Static Files (CSS, Javascript)
 /static/ directory
+
 When an html page links to a stylesheet or some script, express serves the Static
 files in the /static/ directory within the same direcory it is called inside
 of the views/pages/ direcory.
