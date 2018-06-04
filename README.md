@@ -3,6 +3,6 @@ Node js version of my personal website. This is still in early development and i
 
 # Get started
 - Install node js on your machine
-- cd to root directory, npm install for dependencies
+- cd to root directory, type "npm install" for dependencies
 - type "npm run dev" to start the server
 - Go to http://localhost:8080

@@ -11,8 +11,6 @@
   "dependencies": {
     "ejs": "^2.5.9",
     "express": "^4.16.3",
-    "google-auth-library": "^1.4.0",
-    "googleapis": "^30.0.0",
     "jsdom": "^11.10.0",
     "nodemailer": "^4.6.4",
     "nodemon": "^1.17.3",
