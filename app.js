@@ -1,6 +1,12 @@
 "use strict";
 // import * as config from './_config/config.js'
-const config = require('./_config/config.js');
+
+// if env not set on host , load from .env file (try to set on host as .env is not secure)
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
+const config = require('./_config/config.js');1
 const express = require('express');
 const app = express();
 const path = require("path");
@@ -53,7 +59,7 @@ app.get('/api/redir', (req, res) => {
     //res.status(200).send("REDIRRRRRR");
     return request({
         "method": "GET",
-        "uri": "http://api.ipstack.com/" + ip + "?access_key=7a580c7a660c0e54158725e9c8aaff6d",
+        "uri": "http://api.ipstack.com/" + ip + "?access_key=process.env.APILAYER",
         "json": true,
         "resolveWithFullResponse": true,
     }).then((response) => {
