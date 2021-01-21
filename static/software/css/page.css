@@ -194,7 +194,7 @@ body .scrollN, body .scrollN:hover {
         padding-top: 10px;
     }
     .homeSouth {
-        top: calc(100% - 80px);
+        top: calc(100% - 120px);
     }
 
 }
